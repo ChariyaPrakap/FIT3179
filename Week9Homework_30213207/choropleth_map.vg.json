@@ -55,7 +55,8 @@
         "type": "quantitative",
         "scale": {"type": "threshold",
               "domain": [0,2,4,6],
-              "range": ["#feedde", "#fdd0a2", "#fdae6b", "#fd8d3c", "#a63603"]}
+              "range": ["#feedde", "#fdd0a2", "#fdae6b", "#fd8d3c", "#a63603"]},
+        "title":"Depression Rate"
       },
       "tooltip": [
         {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
