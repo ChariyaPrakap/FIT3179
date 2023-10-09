@@ -1,4 +1,4 @@
-﻿Entity,Depression,Schizophrenia,Bipolar disorder,Eating disorders,Anxiety disorders,Drug use disorders,Alcohol use disorders,Code,Continent,Year
+﻿Entity,Depression,Schizophrenia,Bipolar_Disorder,Eating_Disorders,Anxiety_Disorders,Drug_Use_Disorders,Alcohol_Use_Disorders,Code,Continent,Year
 Afghanistan,4.1363471,0.166157852,0.708088873,0.107142266,4.882481275,2.473933869,0.661217394,AFG,Asia,2017
 Albania,2.208414198,0.201025479,0.704479655,0.174046095,3.385244537,0.51761396,1.83795474,ALB,Europe,2017
 Algeria,3.661094496,0.19791314,0.818687153,0.213612216,5.065875684,1.717218255,0.665190886,DZA,Africa,2017
