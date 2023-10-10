@@ -1,0 +1,33 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Global Anxiety Disorder Rate (2023)",
+    "width": 800,
+      "height": {"step": 20},
+    "data": {
+        "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
+    },
+    "encoding": {
+      "y": {"field": "Entity", "type": "nominal"},
+      "x": {"field": "Anxiety_Disorders", "type": "quantitative", "scale": {"domain": [0, 10]}, "axis":null},
+      "tooltip": [
+        {"field": "Entity", "type": "nominal"},
+        {"field": "Anxiety_Disorders", "type": "quantitative","format": ".2f"}
+      ]
+    },
+    "layer": [{
+      "mark": "bar"
+    }, 
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "text": {"field": "Anxiety_Disorders", "type": "quantitative"},
+        "color":{"value": "red"}
+      }
+    }]
+  }
+  
