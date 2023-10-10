@@ -7,6 +7,34 @@
     "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
+  "params":[
+    {
+      "name":"Continent_selection",
+      "bind":{
+        "input": "select",
+        "options":[
+        null,
+        "North America",
+        "South America",
+        "Europe",
+        "Africa",
+        "Asia",
+        "Ocenia"
+        ],
+        "labels":
+        [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Ocenia"
+        ],
+        "name":"Continent Selection: "
+      }
+    }
+  ],
   "projection": {"type": "equalEarth"},
   "layer":[
     {
@@ -43,10 +71,11 @@
             "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
         },
         "key": "Entity",
-        "fields": ["Depression","Schizophrenia","Bipolar_Disorder","Eating_Disorders","Anxiety_Disorders","Drug_Use_Disorders","Alcohol_Use_Disorders"]
+        "fields": ["Depression","Schizophrenia","Bipolar_Disorder","Eating_Disorders","Anxiety_Disorders","Drug_Use_Disorders","Alcohol_Use_Disorders","Continent"]
       }
     },
-    {"calculate": "datum.Depression ", "as": "Depression"}
+    {"calculate": "datum.Depression ", "as": "Depression"},
+    {"filter":"Continent_selection == null || datum.Continent == Continent_selection"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
@@ -60,7 +89,7 @@
     },
     "tooltip": [
       {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
-      {"field": "properties.CONTINENT", "type": "nominal", "title": "Continent"},
+      {"field": "Continent", "type": "nominal", "title": "Continent"},
       {"field": "Depression", "type": "quantitative", "format":".2f", "title":"Depression rate(%)"},
       {"field": "Schizophrenia", "type": "quantitative", "format":".2f", "title":"Schizophrenia rate(%)"},
       {"field": "Bipolar_Disorder", "type": "quantitative", "format":".2f", "title":"Bipolar Disorder rate(%)"},
