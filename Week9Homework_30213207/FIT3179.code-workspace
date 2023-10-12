@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "FIT3179",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
