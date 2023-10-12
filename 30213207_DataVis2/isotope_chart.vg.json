@@ -1,31 +1,40 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {"view": {"stroke": ""}},
+    "width": 800,
+    "height": 200,
     "data": {
-        "url": "/data/depression_data.csv"
+      "values": [
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain","gender": "female"},
+        {"country": "Great Britain", "gender": "male"},
+        {"country": "Great Britain", "gender": "female"},
+        {"country": "Great Britain", "gender": "male"}
+      ]
     },
-    "mark": {
-        "type": "point",
-        "shape": "circle",
-        "size": 100
-    },
+    "transform": [
+      {
+        "calculate": "{'male': '👨', 'female': '👩'}[datum.gender]",
+        "as": "emoji"
+      },
+      {"window": [{"op": "rank", "as": "rank"}], "groupby": ["country", "gender"]}
+    ],
+    "mark": {"type": "text", "baseline": "middle"},
     "encoding": {
-        "x": {
-            "field": "depression_score",
-            "type": "ordinal",
-            "scale": {"domain": [5]},
-            "axis": {"title": "Depression Score"}
-        },
-        "y": {
-            "aggregate": "count",
-            "field": "gender",
-            "type": "nominal",
-            "axis": {"title": "Number of Males"}
-        },
-        "color": {
-            "field": "gender",
-            "type": "nominal",
-            "scale": {"range": ["#1f77b4", "#ff7f0e"]},
-            "legend": {"title": "Gender"}
-        }
+      "x": {"field": "rank", "type": "ordinal", "axis": null},
+      "y": {"field": "gender", "type": "nominal", "axis": null, "sort": null},
+      "row": {"field": "country", "header": {"title": ""}},
+      "text": {"field": "emoji", "type": "nominal"},
+      "size": {"value": 65}
     }
-}
+  }

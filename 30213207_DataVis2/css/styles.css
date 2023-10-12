@@ -5,12 +5,19 @@
 	right: 100px;
 }
 
-h2 {
+h1 {
     text-align: center;
     padding-top: 50px;
 }
 
-#anxiety_title{
+h2{
 	text-align: center;
 	padding-top: 200px;
+}
+
+#donut_chart {
+	top:20px;
+	padding-bottom: 200px; 
+	left: 500px;
+	right: 100px;
 }

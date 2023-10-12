@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple donut chart with embedded data.",
+  "width": 400,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/2017_depression5UniStudents.csv"
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "Depression_Score", "type": "quantitative"},
+    "color": {"field": "Course", "type": "nominal"}
+  }
+}

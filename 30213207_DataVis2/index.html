@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<h2>Global Depression Rate</h2>  
+<h1>Prevalence Of Mental Health Illnesses in University students</h1>  
 <div id="choropleth_map"></div>
 <!-- pure grid group -->
 <div class="pure-g">
@@ -21,20 +21,27 @@
     <div id="bar_chart"></div>
   </div>
 </div>
-<div id ="bar_chart_segment">
-  <div id="bar_chart"></div>
-</div>
+<div class="pure-g">
+  <div class="pure-u-1-1">
+    <h2 id="depression_title">Depression rates in Different Courses</h2>
+    <div id="donut_chart"></div>
+  </div>
 
 
 <script type="text/javascript">
 
   var spec2 = "choropleth_map.vg.json";
   var spec3 = "bar_chart.vg.json";
+  var spec4 = "donut_chart.vg.json";
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
   vegaEmbed('#bar_chart', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#donut_chart', spec4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
