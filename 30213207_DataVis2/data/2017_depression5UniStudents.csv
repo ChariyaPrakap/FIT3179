@@ -1,0 +1,844 @@
+﻿Age,Course,Gender,Depression_Score,CGPA,Stress_Level,Anxiety_Score
+19,Engineering,Female,5,3.05,2,0
+31,Medical,Female,5,3.5,4,2
+35,Medical,Female,5,3.88,5,4
+23,Engineering,Female,5,3.65,2,1
+21,Computer Science,Female,5,3.33,5,3
+19,Computer Science,Female,5,3.82,2,0
+22,Computer Science,Female,5,3.6,0,2
+29,Business,Male,5,3.73,5,4
+25,Computer Science,Male,5,3.79,1,5
+29,Others,Female,5,3.82,2,4
+22,Engineering,Female,5,3.53,1,2
+31,Others,Female,5,3.73,2,0
+29,Law,Male,5,3.79,1,5
+23,Medical,Male,5,3.6,0,0
+25,Others,Male,5,3.78,5,1
+26,Computer Science,Male,5,3.01,2,1
+23,Engineering,Female,5,2.86,2,3
+20,Engineering,Female,5,3.64,2,3
+29,Business,Female,5,3.12,1,2
+18,Medical,Male,5,3.31,3,2
+25,Computer Science,Female,5,3.51,1,4
+20,Engineering,Male,5,3.19,2,0
+19,Medical,Male,5,3.68,4,3
+21,Medical,Female,5,3.07,1,0
+21,Law,Male,5,3.71,0,3
+32,Law,Male,5,3.39,3,2
+27,Others,Male,5,3.42,1,3
+22,Business,Male,5,2.94,2,4
+21,Medical,Female,5,3.36,4,1
+20,Law,Male,5,3.06,0,3
+22,Engineering,Female,5,3.21,3,1
+24,Computer Science,Male,5,3.13,2,0
+29,Computer Science,Female,5,3.05,5,3
+22,Medical,Female,5,2.92,2,0
+25,Computer Science,Male,5,3.08,1,5
+25,Medical,Male,5,3.91,2,2
+26,Business,Female,5,3.34,3,3
+26,Engineering,Female,5,3.63,5,0
+28,Law,Male,5,3.47,0,5
+26,Law,Female,5,3.19,3,1
+20,Engineering,Male,5,3.56,2,3
+23,Computer Science,Male,5,3.5,2,3
+25,Medical,Male,5,3.55,4,5
+30,Medical,Male,5,3.54,5,0
+19,Engineering,Female,5,3.63,5,1
+26,Computer Science,Female,5,4,3,0
+23,Computer Science,Male,5,3.54,1,2
+18,Computer Science,Female,5,3.37,1,2
+18,Engineering,Female,5,3.03,4,2
+25,Medical,Female,5,3.6,1,1
+20,Others,Male,5,3.45,0,1
+30,Business,Male,5,3.79,3,2
+27,Others,Male,5,3.3,1,0
+27,Computer Science,Male,5,3.11,2,0
+21,Business,Female,5,3.3,2,5
+22,Computer Science,Female,5,3.55,1,1
+28,Business,Female,5,3.48,3,1
+20,Medical,Male,5,3.59,1,0
+26,Medical,Female,5,3.32,5,2
+19,Computer Science,Female,5,3.55,4,3
+33,Computer Science,Male,5,3.51,1,1
+26,Computer Science,Female,5,4,0,0
+20,Medical,Male,5,3.65,4,2
+22,Medical,Female,5,3.36,4,1
+19,Medical,Male,5,3.54,4,3
+20,Medical,Male,5,3.71,5,2
+21,Law,Female,5,3.46,1,4
+31,Computer Science,Male,5,3.19,0,1
+19,Medical,Female,5,3.78,0,3
+20,Engineering,Female,5,3.3,1,0
+24,Computer Science,Male,5,3.75,3,2
+20,Computer Science,Female,5,3.84,3,2
+19,Business,Female,5,3.44,3,4
+28,Others,Female,5,3.15,0,3
+20,Medical,Female,5,3.51,1,4
+26,Computer Science,Male,5,3.09,1,2
+21,Engineering,Female,5,3.07,0,1
+23,Law,Male,5,3.86,0,3
+19,Medical,Male,5,3.21,2,4
+26,Business,Female,5,3.48,3,4
+26,Others,Male,5,3.34,3,1
+20,Medical,Male,5,3.3,4,5
+20,Engineering,Female,5,3.08,1,2
+24,Medical,Male,5,3.73,5,1
+27,Law,Male,5,3.37,2,4
+18,Law,Female,5,3.3,1,3
+26,Law,Female,5,3.65,0,4
+22,Computer Science,Female,5,3.87,2,3
+27,Law,Female,5,3.37,4,4
+23,Business,Female,5,3.31,4,3
+26,Law,Male,5,3.24,2,4
+31,Computer Science,Male,5,3.36,3,0
+29,Computer Science,Male,5,3.41,3,4
+23,Computer Science,Male,5,3.77,0,4
+23,Engineering,Male,5,3.54,3,3
+21,Engineering,Male,5,3.84,4,2
+18,Computer Science,Female,5,3.66,2,5
+18,Computer Science,Female,5,3.4,5,0
+25,Business,Male,5,3.68,3,5
+30,Computer Science,Female,5,3.23,5,1
+21,Law,Female,5,3.45,0,2
+19,Law,Male,5,3.35,2,2
+24,Computer Science,Male,5,3.55,2,1
+23,Computer Science,Female,5,3.15,0,2
+25,Law,Male,5,3.59,0,3
+18,Medical,Male,5,3.22,2,1
+18,Computer Science,Male,5,3.63,1,3
+28,Medical,Female,5,3.3,3,3
+20,Business,Male,5,3.31,3,3
+18,Others,Male,5,3.41,5,4
+21,Computer Science,Male,5,3.55,4,3
+26,Computer Science,Male,5,3.24,1,2
+25,Law,Female,5,3.43,0,5
+26,Others,Female,5,3.65,1,3
+29,Medical,Female,5,3.78,3,0
+20,Computer Science,Male,5,3.16,1,1
+24,Computer Science,Female,5,3.71,2,0
+28,Medical,Male,5,3.65,5,1
+18,Business,Female,5,3.6,1,0
+19,Computer Science,Male,5,3.44,0,4
+22,Computer Science,Male,5,3.38,4,0
+18,Medical,Female,5,3.61,3,2
+23,Medical,Male,5,3.41,3,1
+21,Others,Female,5,3.76,4,1
+19,Computer Science,Female,5,3.47,3,2
+22,Others,Male,5,3.6,5,5
+27,Engineering,Male,5,3.46,2,0
+18,Computer Science,Female,5,4,5,3
+20,Business,Female,5,3.61,3,5
+26,Computer Science,Male,5,2.87,3,3
+19,Medical,Male,5,3.13,4,2
+20,Medical,Male,5,3.27,2,0
+22,Computer Science,Female,5,3.56,0,4
+23,Computer Science,Male,5,3.59,3,4
+20,Medical,Male,5,3.42,5,0
+19,Computer Science,Female,5,3.81,1,3
+29,Medical,Female,5,3.84,4,1
+19,Others,Female,5,3.97,2,2
+18,Business,Female,5,3.14,1,1
+26,Others,Female,5,3.48,5,3
+28,Others,Male,5,3.24,0,3
+27,Medical,Male,5,3.77,4,5
+19,Engineering,Male,5,3.49,1,5
+26,Law,Female,5,3.98,3,4
+18,Computer Science,Male,5,3.65,2,5
+24,Engineering,Male,5,3.72,0,2
+21,Others,Female,5,3.4,2,1
+20,Engineering,Female,5,3.48,0,1
+28,Others,Female,5,3.88,3,3
+22,Computer Science,Male,5,4,2,2
+25,Medical,Female,5,3.22,3,1
+21,Medical,Male,5,3.55,5,0
+22,Law,Male,5,3.63,5,5
+19,Computer Science,Male,5,2.96,5,0
+22,Engineering,Male,5,3.55,4,0
+20,Law,Male,5,3.36,2,1
+29,Engineering,Female,5,3.08,2,0
+28,Law,Male,5,3.67,2,5
+19,Computer Science,Male,5,3.46,0,3
+21,Others,Male,5,3.07,0,3
+18,Computer Science,Male,5,3.06,2,5
+18,Medical,Female,5,3.37,3,3
+31,Law,Female,5,3.34,2,2
+23,Computer Science,Female,5,3.39,5,2
+25,Business,Male,5,3.65,1,0
+22,Computer Science,Male,5,3.39,1,4
+20,Law,Male,5,3.67,2,5
+20,Medical,Male,5,4,2,5
+25,Others,Male,5,3.49,3,1
+25,Law,Female,5,3.3,2,2
+21,Medical,Female,5,4,3,0
+23,Medical,Male,5,3.41,1,1
+20,Computer Science,Female,5,3.07,3,2
+23,Medical,Female,5,3.54,4,5
+26,Medical,Male,5,2.98,5,0
+22,Computer Science,Female,5,3.11,3,0
+25,Computer Science,Male,5,3.56,0,0
+22,Others,Female,5,3.4,2,1
+26,Law,Male,5,3.59,2,3
+18,Law,Male,5,4,3,2
+20,Business,Female,5,3.41,0,0
+21,Business,Male,5,3.11,0,2
+18,Computer Science,Female,5,3.01,3,2
+22,Medical,Female,5,3.1,4,5
+23,Engineering,Male,5,4,5,0
+19,Law,Female,5,3.54,2,4
+21,Computer Science,Female,5,3.36,0,3
+20,Engineering,Female,5,3.48,3,2
+25,Medical,Male,5,3.01,3,2
+25,Engineering,Male,5,3.65,2,4
+21,Engineering,Female,5,3.54,1,4
+23,Others,Female,5,3.62,0,4
+22,Computer Science,Female,5,3.78,2,4
+25,Others,Male,5,3.32,4,2
+20,Computer Science,Female,5,2.7,2,0
+25,Law,Female,5,3.81,0,0
+22,Computer Science,Male,5,3.46,2,4
+19,Medical,Female,5,3.53,2,1
+24,Engineering,Female,5,3.59,1,3
+21,Business,Female,5,3.37,4,0
+22,Engineering,Female,5,3.33,0,0
+19,Computer Science,Female,5,3.52,0,5
+22,Law,Female,5,3.38,3,2
+29,Medical,Female,5,4,2,3
+19,Computer Science,Female,5,3.21,5,5
+33,Others,Female,5,3.32,1,3
+27,Medical,Male,5,3.16,1,2
+25,Medical,Male,5,4,5,3
+32,Engineering,Female,5,3.38,1,0
+23,Medical,Female,5,3.59,2,0
+31,Medical,Male,5,3.82,3,4
+23,Law,Male,5,3.11,2,5
+19,Computer Science,Male,5,3.55,2,4
+23,Medical,Female,5,3.75,2,4
+21,Computer Science,Female,5,3.43,0,3
+18,Medical,Male,5,3.59,2,4
+18,Business,Male,5,3.79,0,4
+21,Computer Science,Male,5,3.33,3,3
+22,Business,Male,5,3.38,0,0
+19,Engineering,Male,5,3.33,2,2
+21,Engineering,Female,5,3.27,2,0
+23,Others,Male,5,3.57,0,1
+27,Medical,Female,5,3.41,1,2
+24,Medical,Male,5,3.65,3,1
+19,Computer Science,Female,5,3.6,0,5
+23,Computer Science,Male,5,3.13,0,0
+24,Computer Science,Female,5,4,3,1
+23,Law,Female,5,2.87,4,4
+28,Computer Science,Female,5,3.58,3,1
+23,Medical,Male,5,3.29,3,2
+21,Business,Female,5,3.54,2,0
+18,Computer Science,Female,5,3.71,4,2
+19,Medical,Female,5,3.31,2,2
+24,Medical,Male,5,3.51,3,4
+22,Medical,Female,5,4,0,3
+19,Law,Female,5,3.07,1,4
+18,Computer Science,Male,5,3.38,0,0
+19,Others,Male,5,3.42,4,0
+19,Medical,Male,5,3.18,2,3
+26,Computer Science,Female,5,3.72,0,1
+21,Medical,Female,5,3.66,1,5
+29,Computer Science,Female,5,3.77,4,3
+22,Engineering,Male,5,3.51,2,4
+22,Medical,Male,5,3.48,5,3
+22,Computer Science,Female,5,3.42,1,0
+20,Law,Male,5,3.31,3,4
+27,Computer Science,Female,5,3.93,2,0
+18,Business,Male,5,3.67,3,0
+19,Engineering,Female,5,3.08,3,2
+24,Medical,Male,5,3.87,3,0
+21,Engineering,Female,5,3.25,1,4
+19,Computer Science,Female,5,3.32,3,5
+21,Computer Science,Male,5,3.46,5,2
+20,Law,Female,5,3.74,1,4
+24,Law,Male,5,3.32,0,3
+28,Business,Female,5,4,0,2
+23,Computer Science,Male,5,3.71,1,2
+25,Engineering,Male,5,3.61,5,0
+21,Medical,Male,5,3.52,4,2
+19,Business,Female,5,3.37,1,2
+23,Computer Science,Male,5,3.17,5,1
+18,Engineering,Male,5,3.87,1,0
+24,Engineering,Male,5,3.99,4,0
+26,Computer Science,Female,5,3.48,3,0
+24,Computer Science,Female,5,3.53,0,4
+20,Computer Science,Male,5,2.98,3,1
+20,Computer Science,Female,5,3.02,2,5
+26,Others,Male,5,3.89,2,1
+22,Business,Female,5,3.6,1,3
+27,Medical,Female,5,4,4,5
+24,Computer Science,Female,5,4,3,3
+28,Computer Science,Male,5,3.15,0,1
+18,Computer Science,Female,5,3.61,2,1
+18,Engineering,Male,5,3.02,0,2
+19,Computer Science,Female,5,3.57,4,1
+30,Computer Science,Female,5,3.76,0,1
+30,Computer Science,Male,5,3.7,2,0
+18,Others,Male,5,3.76,0,0
+22,Computer Science,Male,5,3.61,1,0
+30,Engineering,Male,5,3.43,3,4
+23,Engineering,Male,5,3.73,0,4
+22,Business,Male,5,3.44,0,4
+20,Medical,Male,5,3.42,0,3
+22,Law,Male,5,3.5,3,1
+24,Computer Science,Female,5,3.45,0,1
+21,Business,Female,5,3.39,4,3
+28,Business,Male,5,3.28,1,3
+29,Medical,Female,5,3.78,5,2
+24,Business,Male,5,3.46,0,1
+22,Computer Science,Female,5,3.33,3,0
+25,Computer Science,Female,5,3.7,1,3
+22,Computer Science,Male,5,3.66,3,0
+27,Medical,Female,5,3.46,4,5
+30,Others,Male,5,3.66,0,3
+25,Law,Female,5,3.41,1,3
+19,Engineering,Male,5,3.69,1,2
+27,Engineering,Female,5,3.09,4,2
+18,Law,Female,5,3.87,0,4
+27,Engineering,Male,5,3.31,1,2
+26,Law,Female,5,3.65,0,2
+19,Medical,Male,5,3.65,3,2
+20,Business,Female,5,2.94,3,2
+20,Law,Male,5,3.69,1,2
+21,Business,Male,5,3.33,1,4
+19,Medical,Female,5,3.99,4,0
+22,Computer Science,Male,5,3.22,2,4
+19,Computer Science,Male,5,4,3,0
+22,Medical,Male,5,3.24,5,3
+26,Others,Male,5,3.52,1,1
+23,Computer Science,Female,5,3.23,1,0
+21,Computer Science,Male,5,3.16,0,3
+22,Business,Female,5,3.44,3,0
+22,Medical,Male,5,3.64,5,1
+25,Medical,Female,5,3.27,5,0
+20,Medical,Male,5,3.35,5,0
+19,Computer Science,Male,5,2.7,2,0
+18,Computer Science,Male,5,3.86,1,0
+19,Medical,Male,5,3.52,2,3
+24,Computer Science,Female,5,3.88,0,2
+22,Engineering,Female,5,3.11,2,0
+25,Medical,Male,5,3.39,4,0
+26,Computer Science,Female,5,3.08,0,1
+22,Law,Female,5,4,0,2
+23,Law,Female,5,3.14,3,5
+18,Law,Male,5,3.3,5,5
+26,Business,Male,5,2.86,3,1
+19,Computer Science,Male,5,3.46,0,2
+25,Law,Male,5,3.85,3,1
+21,Computer Science,Female,5,3.87,2,4
+27,Medical,Male,5,3.4,0,5
+23,Medical,Male,5,3.53,4,3
+23,Computer Science,Female,5,3.45,2,0
+20,Computer Science,Male,5,3.86,0,0
+23,Others,Male,5,3.26,2,1
+21,Computer Science,Male,5,3.88,1,2
+27,Law,Male,5,3.76,2,1
+21,Computer Science,Female,5,3.07,0,3
+32,Computer Science,Male,5,3.72,0,5
+26,Computer Science,Male,5,2.93,5,2
+22,Engineering,Female,5,3.57,3,5
+20,Medical,Male,5,3.47,2,1
+26,Others,Male,5,3.07,5,2
+21,Computer Science,Male,5,3.4,5,3
+26,Law,Female,5,3.53,2,4
+21,Computer Science,Male,5,2.96,3,0
+19,Engineering,Male,5,3.32,0,0
+31,Computer Science,Male,5,3.37,2,3
+20,Engineering,Female,5,3.99,4,0
+21,Computer Science,Female,5,3.29,3,0
+28,Computer Science,Female,5,3.1,5,4
+24,Medical,Male,5,3.75,2,0
+18,Computer Science,Male,5,3.53,0,3
+23,Computer Science,Male,5,3.12,0,1
+22,Computer Science,Male,5,3.82,3,2
+21,Engineering,Male,5,3.44,2,2
+23,Business,Female,5,3.26,0,1
+24,Business,Female,5,3.48,2,3
+29,Business,Female,5,3.77,1,2
+24,Engineering,Male,5,3.59,3,5
+21,Medical,Female,5,3.34,2,3
+23,Computer Science,Male,5,3.62,0,2
+18,Law,Female,5,3.61,1,3
+18,Law,Female,5,2.97,4,4
+18,Law,Male,5,3.47,3,2
+28,Computer Science,Male,5,3.28,0,2
+24,Law,Female,5,4,1,4
+30,Law,Male,5,3.61,0,3
+21,Medical,Male,5,3.64,4,0
+24,Engineering,Male,5,3.15,0,2
+24,Medical,Female,5,3.55,3,2
+22,Computer Science,Female,5,3.6,3,1
+25,Business,Female,5,3.46,2,0
+22,Computer Science,Female,5,3.64,2,5
+25,Law,Male,5,3.25,4,4
+26,Engineering,Female,5,2.74,5,5
+27,Others,Male,5,3.92,1,0
+23,Medical,Male,5,3.86,5,3
+22,Law,Female,5,3.24,2,3
+27,Medical,Female,5,3.19,3,5
+20,Law,Male,5,3.34,1,3
+29,Computer Science,Female,5,3.41,5,2
+18,Medical,Female,5,2.82,1,2
+22,Computer Science,Female,5,3.55,2,0
+19,Business,Male,5,2.88,3,1
+18,Computer Science,Female,5,4,0,1
+23,Medical,Female,5,3.32,5,4
+26,Medical,Male,5,3.52,2,5
+35,Computer Science,Female,5,3.51,2,2
+24,Computer Science,Female,5,3.98,3,0
+26,Computer Science,Male,5,3.55,1,2
+32,Computer Science,Male,5,2.87,0,1
+25,Computer Science,Male,5,3.06,4,2
+22,Law,Female,5,3.63,0,0
+22,Law,Male,5,3.9,2,3
+18,Others,Male,5,2.89,4,0
+22,Medical,Female,5,3.27,5,1
+26,Medical,Male,5,3.04,3,3
+20,Law,Male,5,3.22,2,3
+26,Engineering,Female,5,3.76,1,1
+20,Engineering,Female,5,3.43,3,0
+19,Computer Science,Female,5,3.64,1,1
+31,Medical,Male,5,3.65,5,5
+23,Computer Science,Female,5,3.78,3,3
+24,Engineering,Female,5,3.17,4,2
+18,Medical,Female,5,3.44,4,1
+21,Others,Female,5,3.67,2,2
+18,Computer Science,Female,5,3.74,0,1
+26,Computer Science,Male,5,3.33,3,3
+25,Others,Male,5,3.55,0,3
+20,Others,Female,5,3.67,1,3
+19,Computer Science,Male,5,3.56,5,0
+21,Computer Science,Female,5,3.18,0,2
+24,Medical,Female,5,3.73,5,5
+20,Others,Female,5,3.1,0,2
+21,Business,Male,5,3.6,1,2
+22,Law,Male,5,3.89,0,3
+27,Computer Science,Female,5,3.48,3,2
+30,Law,Female,5,3.56,3,0
+18,Business,Male,5,3.41,1,1
+23,Medical,Male,5,3.45,5,1
+23,Business,Female,5,3.51,1,0
+19,Engineering,Female,5,3.36,0,1
+21,Business,Female,5,3.42,2,2
+26,Business,Male,5,3.05,0,2
+22,Law,Male,5,2.88,2,3
+18,Others,Female,5,3.21,2,2
+23,Computer Science,Male,5,3.63,0,0
+28,Computer Science,Female,5,3.2,0,0
+25,Medical,Female,5,3.34,3,0
+22,Engineering,Male,5,3.25,1,3
+26,Law,Female,5,3.79,4,4
+23,Computer Science,Male,5,3.49,1,1
+21,Computer Science,Male,5,3.59,0,3
+20,Business,Female,5,3.86,3,3
+23,Medical,Male,5,2.84,2,0
+26,Others,Female,5,3.63,0,1
+23,Law,Male,5,3.49,4,5
+27,Medical,Male,5,3.29,3,2
+23,Law,Male,5,3.49,5,4
+22,Computer Science,Male,5,3.49,0,0
+22,Computer Science,Female,5,2.99,1,3
+20,Business,Female,5,2.9,4,5
+31,Medical,Male,5,3.06,4,4
+24,Computer Science,Male,5,3.35,5,2
+25,Engineering,Female,5,3.66,3,0
+20,Law,Male,5,3.28,4,1
+24,Business,Male,5,3.35,2,3
+19,Computer Science,Female,5,3.33,3,3
+31,Engineering,Female,5,3.67,0,2
+32,Medical,Male,5,4,2,5
+20,Law,Male,5,3.81,1,3
+19,Computer Science,Male,5,3.22,0,1
+20,Computer Science,Female,5,3.56,4,1
+19,Medical,Female,5,3.87,3,1
+22,Medical,Male,5,3.29,4,4
+27,Others,Female,5,3.76,0,5
+25,Computer Science,Male,5,2.89,3,2
+22,Computer Science,Female,5,3.2,2,2
+22,Business,Male,5,2.95,1,1
+20,Engineering,Female,5,4,2,0
+20,Computer Science,Male,5,3.57,3,3
+23,Law,Male,5,3.26,3,4
+19,Computer Science,Female,5,3.25,2,3
+18,Medical,Female,5,3.02,5,0
+19,Medical,Female,5,3.93,4,0
+21,Law,Female,5,3.36,4,1
+30,Medical,Male,5,4,4,2
+23,Computer Science,Male,5,3.1,2,0
+25,Engineering,Male,5,3.44,2,0
+25,Medical,Female,5,3.66,5,5
+23,Medical,Female,5,4,4,2
+18,Medical,Male,5,3.47,3,0
+26,Medical,Male,5,4,5,2
+27,Law,Female,5,3.71,1,2
+20,Computer Science,Female,5,3.42,3,1
+24,Law,Female,5,4,2,3
+23,Others,Female,5,4,2,0
+25,Computer Science,Male,5,3.51,2,1
+23,Medical,Male,5,3.96,2,0
+21,Medical,Female,5,3.19,2,1
+30,Engineering,Male,5,3.25,3,2
+27,Engineering,Female,5,3.72,2,5
+26,Medical,Male,5,4,4,2
+28,Law,Male,5,3.01,3,2
+20,Engineering,Male,5,3.66,2,0
+26,Engineering,Female,5,3.3,2,0
+27,Others,Female,5,3.34,1,1
+28,Business,Female,5,3.32,2,4
+21,Computer Science,Female,5,3.18,2,4
+19,Computer Science,Female,5,3.67,2,5
+18,Medical,Female,5,3.27,5,3
+22,Medical,Female,5,3.49,4,4
+18,Engineering,Male,5,3.5,0,1
+18,Computer Science,Female,5,3.51,3,2
+28,Computer Science,Female,5,3.67,0,5
+18,Computer Science,Female,5,4,1,0
+23,Computer Science,Female,5,3.03,0,0
+19,Law,Female,5,3.68,2,0
+30,Medical,Male,5,3.32,4,1
+20,Law,Female,5,3.38,1,5
+20,Law,Male,5,3.41,3,5
+25,Engineering,Male,5,3.04,1,3
+21,Computer Science,Male,5,3.14,3,0
+24,Medical,Male,5,3.43,5,3
+18,Computer Science,Female,5,3.69,2,1
+23,Computer Science,Female,5,3.94,5,3
+24,Medical,Female,5,3.57,2,3
+21,Engineering,Male,5,3.2,2,4
+24,Computer Science,Male,5,3.69,1,4
+22,Computer Science,Male,5,3.26,2,5
+19,Law,Female,5,3.51,0,2
+28,Business,Male,5,3.6,3,3
+30,Medical,Male,5,3.63,3,3
+21,Computer Science,Female,5,3.54,0,1
+23,Medical,Male,5,3.09,5,3
+20,Law,Female,5,3.82,0,0
+21,Law,Male,5,3.5,1,5
+28,Business,Male,5,3.5,3,3
+20,Law,Male,5,3.45,4,5
+19,Business,Female,5,3.1,1,2
+23,Computer Science,Female,5,3.63,3,4
+26,Computer Science,Female,5,3.71,5,4
+19,Medical,Female,5,3.15,5,5
+27,Computer Science,Female,5,3.24,2,3
+24,Computer Science,Female,5,3.9,1,1
+23,Computer Science,Female,5,3.4,0,1
+27,Business,Male,5,3.48,3,2
+26,Law,Male,5,3.55,3,3
+26,Medical,Female,5,3.73,5,1
+34,Medical,Female,5,3.31,2,1
+34,Business,Male,5,3.9,3,4
+27,Medical,Female,5,3.23,5,4
+27,Medical,Female,5,3.29,3,4
+20,Medical,Female,5,4,5,1
+20,Law,Male,5,2.88,0,3
+18,Business,Female,5,3.4,4,4
+20,Computer Science,Female,5,3.61,3,1
+22,Law,Male,5,3.37,1,4
+26,Medical,Male,5,3.06,3,3
+31,Computer Science,Male,5,3.49,3,1
+21,Engineering,Female,5,3.29,1,1
+24,Others,Male,5,2.92,1,2
+22,Computer Science,Female,5,3.96,3,0
+20,Medical,Female,5,4,4,2
+19,Medical,Female,5,3.86,4,4
+23,Medical,Male,5,4,3,5
+19,Others,Female,5,3.69,0,1
+22,Others,Female,5,3.82,2,2
+30,Law,Male,5,3.38,1,5
+28,Medical,Male,5,3.45,2,0
+19,Medical,Male,5,3.23,4,4
+23,Law,Male,5,3.5,3,4
+18,Medical,Female,5,3.92,3,4
+20,Business,Female,5,3.2,4,0
+20,Others,Female,5,3.23,2,1
+22,Engineering,Female,5,3.26,2,4
+18,Medical,Female,5,3.61,0,1
+24,Medical,Female,5,3.8,1,1
+29,Law,Female,5,3.93,0,1
+21,Medical,Male,5,3.82,4,0
+18,Law,Male,5,3.92,1,3
+24,Computer Science,Female,5,3.66,4,4
+20,Law,Male,5,3.63,1,1
+19,Computer Science,Female,5,2.71,2,2
+19,Medical,Male,5,3.22,0,0
+20,Computer Science,Female,5,3.27,0,2
+28,Medical,Male,5,3.24,4,0
+26,Engineering,Female,5,3.57,3,0
+29,Law,Male,5,3.62,4,3
+23,Engineering,Male,5,2.9,0,3
+32,Engineering,Male,5,3.86,1,5
+32,Law,Male,5,3.61,5,3
+22,Medical,Female,5,3.43,0,1
+21,Medical,Female,5,3.64,3,5
+18,Engineering,Male,5,3.66,2,3
+18,Computer Science,Female,5,3.45,2,2
+22,Computer Science,Female,5,3.54,1,4
+23,Computer Science,Male,5,3.34,3,5
+22,Others,Male,5,3.36,2,5
+24,Law,Male,5,3.08,1,4
+20,Medical,Female,5,3.35,5,0
+19,Business,Male,5,3.47,2,4
+22,Computer Science,Male,5,3.43,4,3
+20,Computer Science,Female,5,3.44,1,0
+21,Others,Female,5,3.34,1,1
+22,Others,Male,5,3.5,2,2
+23,Others,Female,5,3.69,1,4
+18,Engineering,Male,5,3.09,5,5
+21,Computer Science,Female,5,3.17,2,0
+27,Medical,Male,5,3.42,2,3
+23,Computer Science,Female,5,3.07,2,0
+27,Computer Science,Female,5,4,4,3
+22,Medical,Male,5,3.54,1,1
+25,Medical,Female,5,3.18,5,2
+23,Medical,Female,5,2.86,1,2
+19,Others,Female,5,3.17,0,4
+27,Business,Male,5,3.24,2,3
+32,Business,Female,5,3.66,2,4
+20,Computer Science,Female,5,3.2,3,3
+23,Computer Science,Female,5,3.97,2,2
+34,Computer Science,Male,5,3.55,5,5
+23,Computer Science,Male,5,3.34,0,3
+24,Computer Science,Male,5,3.55,0,3
+18,Medical,Female,5,3.53,1,5
+20,Medical,Female,5,3.59,5,0
+19,Computer Science,Male,5,3.39,3,0
+29,Computer Science,Female,5,3.12,0,0
+28,Law,Male,5,3.33,3,3
+24,Computer Science,Male,5,3.05,0,0
+22,Others,Female,5,3.07,2,4
+19,Computer Science,Male,5,3.49,0,2
+18,Others,Male,5,3.25,1,1
+25,Medical,Male,5,3.87,5,4
+18,Medical,Male,5,3.77,2,0
+26,Engineering,Female,5,3.46,2,5
+20,Medical,Female,5,3.09,2,2
+18,Computer Science,Male,5,3.6,5,5
+19,Business,Female,5,3.08,3,2
+30,Others,Female,5,3.99,0,5
+27,Law,Male,5,3.51,1,2
+31,Engineering,Female,5,3.55,3,1
+24,Computer Science,Male,5,3.54,0,2
+23,Computer Science,Male,5,3.63,0,1
+20,Law,Female,5,3.62,3,1
+24,Business,Female,5,3.56,2,5
+23,Medical,Male,5,3.4,4,3
+34,Law,Female,5,4,5,4
+18,Computer Science,Female,5,3.93,0,3
+24,Law,Male,5,3.6,2,3
+19,Law,Female,5,4,5,0
+24,Law,Female,5,3.71,0,5
+20,Engineering,Female,5,3.4,0,2
+24,Others,Male,5,3.36,3,1
+23,Engineering,Male,5,3.08,3,1
+32,Computer Science,Female,5,4,1,4
+19,Engineering,Male,5,3.53,1,0
+20,Others,Male,5,3.5,0,1
+20,Law,Female,5,3.26,2,5
+21,Medical,Female,5,3.84,2,5
+21,Business,Female,5,3.13,1,0
+25,Law,Female,5,4,5,4
+19,Medical,Female,5,3.52,2,1
+28,Computer Science,Male,5,3.29,0,1
+18,Law,Female,5,3.63,5,2
+22,Medical,Female,5,3.12,4,3
+21,Law,Male,5,3.86,2,2
+31,Law,Female,5,3.58,3,2
+24,Computer Science,Male,5,3.83,0,5
+23,Medical,Female,5,3.24,4,3
+18,Computer Science,Male,5,4,2,5
+32,Computer Science,Female,5,4,0,1
+18,Others,Female,5,3.25,1,2
+21,Others,Female,5,3.44,1,5
+18,Medical,Male,5,3.15,1,2
+19,Law,Male,5,3.89,5,5
+21,Others,Female,5,3.61,0,3
+19,Medical,Male,5,3.87,5,2
+19,Medical,Female,5,3.9,4,4
+22,Computer Science,Male,5,3.95,2,0
+21,Others,Male,5,3.53,4,5
+31,Computer Science,Male,5,3.57,2,2
+24,Others,Female,5,3.3,3,3
+20,Law,Female,5,3.42,1,5
+18,Engineering,Female,5,2.99,1,3
+29,Engineering,Female,5,3.94,3,2
+18,Computer Science,Female,5,3.69,2,5
+25,Medical,Male,5,3.62,5,5
+22,Law,Female,5,3.68,4,2
+19,Medical,Female,5,4,0,1
+18,Computer Science,Male,5,3.5,0,2
+19,Computer Science,Female,5,3.16,0,0
+20,Others,Male,5,2.9,0,1
+35,Computer Science,Female,5,3.67,4,1
+25,Computer Science,Female,5,3.43,0,1
+31,Law,Male,5,3.44,5,2
+21,Business,Male,5,3.18,3,2
+24,Engineering,Female,5,3.38,1,3
+25,Computer Science,Male,5,3.35,0,3
+25,Medical,Male,5,4,1,3
+21,Engineering,Female,5,3.04,2,2
+24,Computer Science,Female,5,3.85,4,0
+19,Law,Male,5,3.61,2,3
+28,Medical,Male,5,3.95,4,3
+27,Law,Male,5,3.22,2,5
+18,Others,Female,5,2.95,1,4
+23,Computer Science,Male,5,3.88,5,2
+20,Computer Science,Male,5,3.09,2,3
+26,Law,Female,5,3.71,0,3
+23,Computer Science,Female,5,3.24,0,3
+21,Business,Male,5,3.38,1,1
+32,Computer Science,Male,5,3.65,0,0
+22,Computer Science,Female,5,3.56,0,1
+19,Medical,Female,5,3.11,5,1
+18,Engineering,Male,5,3.53,4,3
+27,Computer Science,Male,5,3.68,1,4
+22,Medical,Male,5,3.35,5,1
+20,Computer Science,Female,5,3.29,0,2
+20,Medical,Female,5,3.32,1,0
+20,Computer Science,Female,5,3.66,4,5
+25,Medical,Female,5,4,0,2
+21,Medical,Male,5,3.05,5,5
+27,Computer Science,Male,5,3.63,5,4
+20,Others,Male,5,3.35,0,3
+30,Engineering,Female,5,3.09,0,0
+20,Computer Science,Male,5,3.6,3,4
+20,Law,Female,5,3.56,3,2
+19,Medical,Female,5,3.87,0,2
+26,Law,Female,5,3.49,1,3
+26,Computer Science,Female,5,3.23,2,1
+26,Computer Science,Female,5,3.49,1,1
+21,Medical,Male,5,3.89,1,2
+33,Computer Science,Female,5,3.29,1,2
+20,Computer Science,Female,5,3.87,5,5
+31,Engineering,Male,5,3.12,4,2
+22,Business,Female,5,4,2,2
+18,Medical,Male,5,3.83,3,1
+26,Medical,Female,5,3.52,4,3
+22,Medical,Female,5,3.51,4,4
+29,Business,Male,5,3.55,1,4
+21,Business,Male,5,3.59,0,2
+18,Law,Male,5,3.99,5,4
+22,Business,Male,5,3.16,0,1
+19,Engineering,Female,5,2.94,3,3
+20,Law,Female,5,3.25,2,5
+25,Computer Science,Male,5,3.39,3,2
+25,Business,Female,5,3.63,1,3
+20,Computer Science,Male,5,3.35,3,0
+24,Law,Female,5,3.59,4,2
+21,Medical,Male,5,3.26,4,0
+19,Business,Female,5,3.93,2,2
+23,Computer Science,Female,5,3.12,5,3
+20,Medical,Male,5,3.94,5,0
+28,Computer Science,Male,5,4,1,0
+19,Computer Science,Male,5,3.39,3,2
+29,Others,Male,5,3.47,1,0
+21,Business,Male,5,4,0,1
+20,Others,Male,5,3.86,3,2
+20,Others,Female,5,3.74,0,5
+22,Medical,Female,5,3.2,0,0
+21,Law,Female,5,3.39,2,2
+21,Others,Male,5,4,0,0
+18,Computer Science,Female,5,3.87,0,2
+18,Medical,Female,5,3.43,4,1
+23,Computer Science,Male,5,3.45,0,0
+26,Medical,Male,5,3.69,1,3
+26,Medical,Female,5,3.12,5,2
+26,Computer Science,Male,5,3.48,4,2
+33,Law,Female,5,2.96,0,3
+23,Computer Science,Female,5,3.25,3,3
+22,Law,Male,5,3.38,0,1
+18,Law,Female,5,3.12,2,4
+23,Medical,Female,5,3.48,4,2
+26,Computer Science,Male,5,3.21,5,0
+28,Law,Male,5,3.78,1,3
+23,Others,Male,5,3.19,2,0
+18,Law,Female,5,3.61,0,4
+26,Engineering,Female,5,3.13,1,2
+34,Law,Male,5,3.61,4,4
+23,Medical,Female,5,3.15,3,1
+19,Computer Science,Male,5,3.48,4,4
+32,Computer Science,Male,5,3.33,5,1
+20,Business,Male,5,3.65,1,2
+20,Engineering,Female,5,3.25,2,1
+27,Others,Female,5,3.24,1,2
+22,Medical,Female,5,3.62,5,0
+27,Medical,Male,5,3.17,3,0
+20,Medical,Male,5,3.36,1,0
+23,Engineering,Female,5,3.44,1,1
+22,Law,Male,5,3.9,5,1
+21,Law,Male,5,3.35,1,5
+23,Medical,Male,5,3.66,2,3
+27,Medical,Male,5,3.29,4,1
+21,Engineering,Female,5,3.68,0,3
+18,Law,Female,5,2.98,2,4
+19,Computer Science,Male,5,3.13,0,2
+21,Engineering,Female,5,3.72,0,1
+20,Computer Science,Male,5,3.53,4,4
+33,Medical,Male,5,3.51,3,0
+20,Computer Science,Female,5,3.55,1,4
+20,Law,Male,5,3.78,1,5
+25,Computer Science,Male,5,3.35,2,4
+32,Computer Science,Female,5,3.03,5,5
+23,Medical,Female,5,3.81,2,0
+22,Computer Science,Female,5,3.67,1,0
+21,Computer Science,Male,5,3.69,3,0
+23,Medical,Female,5,3.78,2,5
+30,Computer Science,Male,5,3.54,1,1
+20,Law,Female,5,3.89,2,3
+24,Computer Science,Male,5,3.5,2,3
+23,Medical,Male,5,3.58,0,4
+28,Law,Female,5,3.8,2,5
+22,Computer Science,Female,5,3.79,3,2
+25,Law,Female,5,3.36,0,0
+32,Others,Male,5,3.45,1,3
+19,Engineering,Female,5,3.5,3,1
+22,Law,Female,5,3.32,3,4
+20,Medical,Female,5,3.51,2,1
+21,Engineering,Male,5,3.87,0,2
+32,Medical,Female,5,3.05,1,3
+20,Medical,Female,5,3.81,4,2
+22,Law,Male,5,3.55,2,3
+24,Computer Science,Female,5,3.48,1,3
+21,Medical,Male,5,3.97,5,0
+23,Computer Science,Female,5,3.51,1,1
+26,Engineering,Female,5,4,3,2
+31,Business,Male,5,3.45,2,4
+22,Engineering,Female,5,2.98,1,3
+23,Others,Female,5,3.93,3,3
+20,Medical,Female,5,3.5,5,0
+18,Computer Science,Male,5,2.99,3,3
+22,Computer Science,Female,5,3.22,2,0
+23,Computer Science,Male,5,3.3,0,1
+23,Law,Female,5,3.19,4,5
+18,Computer Science,Female,5,3.78,0,1
+21,Computer Science,Male,5,3.53,1,4
+23,Medical,Female,5,3.15,4,3
+23,Business,Male,5,2.99,1,4
+20,Medical,Female,5,3.48,0,5
+25,Law,Female,5,3.37,0,5
+22,Engineering,Female,5,3.49,1,3
+21,Computer Science,Female,5,3.44,3,1
+23,Business,Male,5,3.43,1,3
+19,Law,Male,5,3.81,2,5
+23,Law,Male,5,3.64,5,2
+27,Computer Science,Female,5,3.35,3,1
+20,Medical,Female,5,3.24,3,0
+26,Computer Science,Female,5,3.51,1,3
+22,Computer Science,Male,5,3.23,0,0
+19,Engineering,Female,5,3.55,1,1
+24,Computer Science,Male,5,3.53,2,2
+23,Law,Male,5,4,0,3
+20,Computer Science,Female,5,3.9,0,1
+19,Computer Science,Male,5,3.58,1,2
+27,Medical,Female,5,2.8,3,2
+18,Computer Science,Female,5,3.24,0,0
+27,Computer Science,Female,5,3.4,3,1
+30,Medical,Male,5,3.56,5,3
+20,Engineering,Female,5,3.04,3,2
+33,Medical,Male,5,3.3,1,5
+33,Engineering,Male,5,3.47,4,4
+27,Computer Science,Female,5,3.14,2,5
+26,Others,Male,5,3.65,4,1
+22,Medical,Female,5,,3,0

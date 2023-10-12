@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "/data/depression_data.csv"
+    },
+    "mark": {
+        "type": "point",
+        "shape": "circle",
+        "size": 100
+    },
+    "encoding": {
+        "x": {
+            "field": "depression_score",
+            "type": "ordinal",
+            "scale": {"domain": [5]},
+            "axis": {"title": "Depression Score"}
+        },
+        "y": {
+            "aggregate": "count",
+            "field": "gender",
+            "type": "nominal",
+            "axis": {"title": "Number of Males"}
+        },
+        "color": {
+            "field": "gender",
+            "type": "nominal",
+            "scale": {"range": ["#1f77b4", "#ff7f0e"]},
+            "legend": {"title": "Gender"}
+        }
+    }
+}

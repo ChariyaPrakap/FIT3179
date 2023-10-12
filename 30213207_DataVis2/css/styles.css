@@ -5,8 +5,12 @@
 	right: 100px;
 }
 
-h1 {
+h2 {
     text-align: center;
     padding-top: 50px;
 }
 
+#anxiety_title{
+	text-align: center;
+	padding-top: 200px;
+}
