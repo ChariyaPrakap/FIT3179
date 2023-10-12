@@ -1,0 +1,105 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global Depression Rate (2017)",
+  "width": 800,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "params":[
+    {
+      "name":"Continent_selection",
+      "bind":{
+        "input": "select",
+        "options":[
+        null,
+        "North America",
+        "South America",
+        "Europe",
+        "Africa",
+        "Asia",
+        "Ocenia"
+        ],
+        "labels":
+        [
+          "Show All",
+          "North America",
+          "South America",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Ocenia"
+        ],
+        "name":"Continent Selection: "
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "layer":[
+    {
+      "transform": [
+        {"calculate": "'Data is not available in ' + datum.properties.NAME", "as": "note"}
+      ],
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "encoding": {
+        "tooltip": {
+          "field": "note"
+        }
+      }
+    },
+      {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "skyblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/WorldMapWithGraticules.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+    },
+    {
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+            "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
+        },
+        "key": "Entity",
+        "fields": ["Depression","Schizophrenia","Bipolar_Disorder","Eating_Disorders","Anxiety_Disorders","Drug_Use_Disorders","Alcohol_Use_Disorders","Continent"]
+      }
+    },
+    {"calculate": "datum.Depression ", "as": "Depression"},
+    {"filter":"Continent_selection == null || datum.Continent == Continent_selection"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Depression",
+      "type": "quantitative",
+      "scale": {"type": "threshold",
+            "domain": [0,2,4,6],
+            "range": ["#feedde", "#fdd0a2", "#fdae6b", "#fd8d3c", "#a63603"]},
+      "title":"Depression Rate"
+    },
+    "tooltip": [
+      {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
+      {"field": "Continent", "type": "nominal", "title": "Continent"},
+      {"field": "Depression", "type": "quantitative", "format":".2f", "title":"Depression rate(%)"},
+      {"field": "Schizophrenia", "type": "quantitative", "format":".2f", "title":"Schizophrenia rate(%)"},
+      {"field": "Bipolar_Disorder", "type": "quantitative", "format":".2f", "title":"Bipolar Disorder rate(%)"},
+      {"field": "Eating_Disorders", "type": "quantitative", "format":".2f", "title":"Eating Disorder rate(%)"},
+      {"field": "Anxiety_Disorders", "type": "quantitative", "format":".2f", "title":"Anxiety Disorder rate(%)"},
+      {"field": "Drug_Use_Disorders", "type": "quantitative", "format":".2f", "title":"Drug Use Disorder rate(%)"},
+      {"field": "Alcohol_Use_Disorders", "type": "quantitative", "format":".2f", "title":"Alcohol Use Disorder rate(%)"}
+    ]
+      }
+    }
+  ]
+  
+}
