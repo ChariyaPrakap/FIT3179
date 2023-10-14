@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Global Depression Rate (2017)",
+  "title": "Global Mental Illness Rate (2017)",
   "width": 800,
   "height": 500,
   "data": {
@@ -85,7 +85,7 @@
       "scale": {"type": "threshold",
             "domain": [0,2,4,6],
             "range": ["#feedde", "#fdd0a2", "#fdae6b", "#fd8d3c", "#a63603"]},
-      "title":"Depression Rate"
+      "title":"Depression Rate (%)"
     },
     "tooltip": [
       {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
