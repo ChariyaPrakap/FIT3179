@@ -7,8 +7,8 @@
       "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
   },
   "encoding": {
-    "y": {"field": "Entity", "type": "nominal","sort":"-x"},
-    "x": {"field": "Anxiety_Disorders", "type": "quantitative", "scale": {"domain": [0, 10]}, "axis":null},
+    "y": {"field": "Entity", "type": "nominal","sort":{"field":"Anxiety_Disorders","op":"mean","order":"descending"}},
+    "x": {"field": "Anxiety_Disorders", "type": "quantitative", "scale": {"domain": [0, 10]}, "axis":null,"sort":"-x"},
     "tooltip": [
       {"field": "Entity", "type": "nominal"},
       {"field": "Anxiety_Disorders", "type": "quantitative","format": ".2f","title":"Anxiety Disorder Rate (%)"}
@@ -48,5 +48,7 @@
       "color":{"value": "red"}
     }
   }],
-  "config": {"title":{"font":"arial","fontSize":"16"}}
+  "config": {
+    "title":{"font":"arial","fontSize":"16"}
+  }
 }
