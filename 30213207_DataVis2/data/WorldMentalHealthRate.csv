@@ -1,4 +1,4 @@
-﻿Entity,Code,Year,Schizophrenia (%),Bipolar disorder (%),Eating disorders (%),Anxiety disorders (%),Drug use disorders (%),Depression (%),Alcohol use disorders (%)
+﻿Entity,Code,Year,Schizophrenia,Bipolar_Disorder,Eating_Disorders,Anxiety_Disorders,Drug_Use_Disorders,Depression,Alcohol_Use_Disorders
 Afghanistan,AFG,2000,0.161621224,0.700015097,0.08602062,4.827046575,1.788395221,4.118610344,0.662478902
 Afghanistan,AFG,2001,0.161957171,0.70049948,0.086517457,4.831408829,1.839123003,4.121381075,0.661158445
 Afghanistan,AFG,2002,0.162414146,0.701141209,0.08702272,4.838317811,1.934326435,4.124928216,0.659212918
