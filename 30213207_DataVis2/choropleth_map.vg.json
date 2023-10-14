@@ -65,12 +65,12 @@
     {
   "transform": [
     {
-      "lookup": "properties.NAME",
+      "lookup": "properties.ISO_A3_EH",
       "from": {
         "data": {
             "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
         },
-        "key": "Entity",
+        "key": "Code",
         "fields": ["Depression","Schizophrenia","Bipolar_Disorder","Eating_Disorders","Anxiety_Disorders","Drug_Use_Disorders","Alcohol_Use_Disorders","Continent"]
       }
     },
