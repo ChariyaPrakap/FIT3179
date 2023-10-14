@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top 10 Countries with Highest Anxiety Disorder Rate (2017)",
+  "title": "Global Anxiety Disorder Rate (2023)",
   "width": 800,
     "height": {"step": 20},
   "data": {
@@ -30,7 +30,7 @@
         "Uruguay",
         "Argentina"
 
-      ],
+      ]
     }
   }], 
   "layer": [{
