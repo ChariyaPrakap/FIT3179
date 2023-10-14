@@ -4,11 +4,20 @@
   "width": 400,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/2017_depression5UniStudents.csv"
+    "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/2017_Course_Counter.csv"
   },
-  "mark": {"type": "arc", "innerRadius": 50},
+  "mark": {
+    "type": "arc", 
+    "innerRadius": 50,
+    "tooltip":true
+  },
   "encoding": {
-    "theta": {"field": "Depression_Score", "type": "quantitative"},
-    "color": {"field": "Course", "type": "nominal"}
+    "theta": {"field": "CourseCounter", "type": "quantitative"},
+    "color": {"field": "Course_Name", "type": "nominal","scale": {"type": "ordinal",
+            "range": ["#ff6e54", "#003f5c", "#dd5182", "#955196", "#444e86","#ffa600"]},"title":"Course"},
+    "tooltip":[
+    {"field": "Course_Name", "type": "nominal","title":"Course "},
+    {"field": "CourseCounter", "type": "quantitative","title":"No. of students with severe depression "}
+  ]
   }
 }
