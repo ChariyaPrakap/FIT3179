@@ -14,7 +14,7 @@
   "encoding": {
     "theta": {"field": "CourseCounter", "type": "quantitative"},
     "color": {"field": "Course_Name", "type": "nominal","scale": {"type": "ordinal",
-            "range": ["#ff6e54", "#003f5c", "#dd5182", "#955196", "#444e86","#ffa600"]},"title":"Course"},
+            "range": ["#fdd0a2", "#a63603", "#fdae6b", "#fd8d3c", "#e6550d","#feedde"]},"title":"Course"},
     "tooltip":[
     {"field": "Course_Name", "type": "nominal","title":"Course "},
     {"field": "CourseCounter", "type": "quantitative","title":"No. of students with severe depression "}
