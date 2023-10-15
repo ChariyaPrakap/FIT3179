@@ -2,7 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text":"Global Mental Illness Rate (2017)",
-    "fontSize":20
+    "fontSize":20,
+    "font":"Arial"
   },
   "width": 800,
   "height": 500,
