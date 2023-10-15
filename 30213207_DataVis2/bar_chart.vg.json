@@ -49,7 +49,7 @@
     }
   }],
   "config": {
-    "title":{"font":"arial","fontSize":"16"},
+    "title":{"font":"arial","fontSize":16},
     "axis": {"labelFont": "arial","labelFontSize": 12}
   }
 }
