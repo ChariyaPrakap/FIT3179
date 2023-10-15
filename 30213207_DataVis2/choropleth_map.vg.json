@@ -122,7 +122,7 @@
       "mark":{"type": "text", "fontSize" : 16, "align" : "left", "fontWeight": "bold", "lineBreak": "\n"},
       "encoding":{
         "text": {
-          "value": "Fun Fact!\nGreenland has the highest\ndepression rate (6.2%) in 2017",
+          "value": "Fun Fact!\nGreenland has the highest\ndepression rate (6.2%) in 2017"
         },
         "color": {"value":"#FAF543"},
           "size": { "value": 11.5 },
