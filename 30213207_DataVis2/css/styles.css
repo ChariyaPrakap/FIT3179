@@ -11,13 +11,14 @@ h2{
 
 /*Charts*/
 #donut_chart {
+	display:grid;
 	top:20px;
 	padding-bottom: 200px; 
-	left: 100px;
-	right: 500px;
+	left: 1300px;
 }
 
 #choropleth_map {
+	display:grid;
 	top:100px;
 	bottom: 100px; 
 	left: 100px;
@@ -25,8 +26,16 @@ h2{
 }
 
 #bar_chart {
+	display:grid;
 	top:100px;
 	bottom: 100px; 
 	left: 900px;
 	right: 100px;
+}
+
+#line_chart{
+	display:grid;
+	top:60px;
+	padding-bottom: 50px; 
+	left: 100px;
 }

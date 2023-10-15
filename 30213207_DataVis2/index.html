@@ -23,7 +23,12 @@
 </div>
 <div class="pure-g">
   <div class="pure-u-1-1">
-    <h2 id="depression_title">Anxiety rates in Different University Courses</h2>
+    <h2 id="depression_title">Trend of Depression Rates in Selected Countries(2000-2017)</h2>
+    <div id="line_chart"></div>
+  </div>
+<div class="pure-g">
+  <div class="pure-u-1-1">
+    <h2 id="depression_title">Depression rates in Different University Courses</h2>
     <div id="donut_chart"></div>
   </div>
 
@@ -33,6 +38,7 @@
   var spec2 = "choropleth_map.vg.json";
   var spec3 = "bar_chart.vg.json";
   var spec4 = "donut_chart.vg.json";
+  var spec5 = "line_chart.vg.json";
   vegaEmbed('#choropleth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
@@ -42,6 +48,10 @@
   }).catch(console.error);
 
   vegaEmbed('#donut_chart', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#line_chart', spec5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
