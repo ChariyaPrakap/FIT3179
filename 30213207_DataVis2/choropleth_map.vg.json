@@ -75,7 +75,7 @@
       }
     },
     {"calculate": "datum.Depression ", "as": "Depression"},
-    {"filter":"Continent_selection == null || datum.Continent == Continent_selection"}
+    {"filter":"Continent_selection == null || datum.properties.CONTINENT == Continent_selection"}
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
@@ -89,7 +89,7 @@
     },
     "tooltip": [
       {"field": "properties.NAME_EN", "type": "nominal", "title": "Country"},
-      {"field": "Continent", "type": "nominal", "title": "Continent"},
+      {"field": "datum.properties.CONTINENT", "type": "nominal", "title": "Continent"},
       {"field": "Depression", "type": "quantitative", "format":".2f", "title":"Depression rate(%)"},
       {"field": "Schizophrenia", "type": "quantitative", "format":".2f", "title":"Schizophrenia rate(%)"},
       {"field": "Bipolar_Disorder", "type": "quantitative", "format":".2f", "title":"Bipolar Disorder rate(%)"},
