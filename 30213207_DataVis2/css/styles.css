@@ -1,10 +1,4 @@
-#choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-}
-
+/*Texts*/
 h1 {
     text-align: center;
     padding-top: 50px;
@@ -15,9 +9,24 @@ h2{
 	padding-top: 200px;
 }
 
+/*Charts*/
 #donut_chart {
 	top:20px;
 	padding-bottom: 200px; 
 	left: 100px;
 	right: 500px;
+}
+
+#choropleth_map {
+	top:100px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+}
+
+#bar_chart {
+	top:100px;
+	bottom: 100px; 
+	left: 900px;
+	right: 100px;
 }

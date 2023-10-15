@@ -1,16 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Global Anxiety Disorder Rate (2023)",
+  "title": "Top 10 Countries With Highest Anxiety Rate (2017)",
   "width": 800,
     "height": {"step": 20},
   "data": {
       "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/Week9Homework_30213207/data/2017_Mental%20Health%20depression%20disorder%20data.csv"
   },
   "encoding": {
-    "y": {"field": "Entity", "type": "nominal","sort":{"field":"Anxiety_Disorders","op":"mean","order":"descending"}},
-    "x": {"field": "Anxiety_Disorders", "type": "quantitative", "scale": {"domain": [0, 10]}, "axis":null,"sort":"-x"},
+    "y": {"field": "Entity", "type": "nominal","sort":{"field":"Anxiety_Disorders","op":"mean","order":"descending"},"title":"Country"},
+    "x": {"field": "Anxiety_Disorders", "type": "quantitative", "scale": {"domain": [0, 10]}, "axis":null,"sort":"-x","title":"Anxiety Rate (%)"},
+    "color": {"value":"#fd8d3c"},
     "tooltip": [
-      {"field": "Entity", "type": "nominal"},
+      {"field": "Entity", "type": "nominal","title":"Country"},
       {"field": "Anxiety_Disorders", "type": "quantitative","format": ".2f","title":"Anxiety Disorder Rate (%)"}
     ]
   },
@@ -45,7 +46,7 @@
     },
     "encoding": {
       "text": {"field": "Anxiety_Disorders", "type": "quantitative"},
-      "color":{"value": "red"}
+      "color":{"value": "#4C78A8"}
     }
   }],
   "config": {
