@@ -16,8 +16,8 @@
     "color": {"field": "Course_Name", "type": "nominal","scale": {"type": "ordinal",
             "range": ["#fdd0a2", "#a63603", "#fdae6b", "#fd8d3c", "#e6550d","#feedde"]},"title":"Course"},
     "tooltip":[
-    {"field": "Course_Name", "type": "nominal","title":"Course "},
-    {"field": "CourseCounter", "type": "quantitative","title":"No. of students with severe depression "}
+    {"field": "Course_Name", "type": "nominal","title":"Course: "},
+    {"field": "CourseCounter", "type": "quantitative","title":"No. of students with severe depression: "}
   ]
   }
 }
