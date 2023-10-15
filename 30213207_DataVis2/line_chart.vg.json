@@ -1,0 +1,39 @@
+
+
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Google's stock price over time.",
+    "data": {"url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/WorldMentalHealthRate.csv"},
+    "width": 400,
+    "height": 260,
+    "title": {
+      "text": "Depression Rate of Selected Countries (2000-2017)",
+      "fontSize": 16
+    },
+    "transform": [{
+      "filter":{
+        "field": "Entity",
+        "oneOf":[
+          "Australia",
+          "Malaysia",
+          "Singapore",
+          "New Zealand"
+        ]
+      }
+    }],
+    "mark": {
+      "type":"line",
+      "point":true
+    },
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {
+        "field": "Depression", 
+        "type": "quantitative",
+        "scale":{"domain":[3.0,5.0]},
+        "title":"Depression Rate (%)"},
+      "color": {"field":"Entity","type":"nominal", "title":"Country","scale":{"range":["purple","#1f78b4",
+      "magenta","orange"]}}
+    }
+  }
+  
