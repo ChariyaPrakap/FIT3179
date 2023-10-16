@@ -5,7 +5,7 @@
     "fontSize":20,
     "font":"Arial"
   },
-  "width": 800,
+  "width": 1280,
   "height": 500,
   "config":{
     "view": {"stroke": "transparent"},
@@ -131,7 +131,7 @@
         },
         "color": {"value":"#E953F7"},
           "size": { "value": 11.5 },
-          "x": { "value": 100 },
+          "x": { "value": 350 },
           "y": { "value": 370 }
       }
     }

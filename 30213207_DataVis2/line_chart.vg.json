@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Google's stock price over time.",
     "data": {"url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/WorldMentalHealthRate.csv"},
-    "width": 500,
+    "width": 450,
     "height": 350,
     "config":{
         "view": {"stroke": "transparent"},
@@ -19,7 +19,10 @@
           "Australia",
           "Malaysia",
           "Singapore",
-          "New Zealand"
+          "New Zealand",
+          "United States of America",
+          "England",
+          "China"
         ]
       }
     }],
@@ -35,7 +38,7 @@
         "scale":{"domain":[3.0,5.0]},
         "title":"Depression Rate (%)"},
       "color": {"field":"Entity","type":"nominal", "title":"Country","scale":{"range":["purple","#1f78b4",
-      "magenta","orange"]}}
+      "magenta","orange","cyan","red","olive"]}}
     }
   }
   
