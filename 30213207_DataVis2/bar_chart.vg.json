@@ -45,7 +45,7 @@
       "dx": 3
     },
     "encoding": {
-      "text": {"field": "Anxiety_Disorders", "type": "quantitative"},
+      "text": {"field": "Anxiety_Disorders", "type": "quantitative","format": ".2f"},
       "color":{"value": "#4C78A8"}
     }
   }],
