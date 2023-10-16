@@ -57,7 +57,13 @@ img{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	width:fit-content;
-	color:#FFFFFF
+	color:#FFFFFF;
+}
+
+#bar_col{
+	display: flexbox;
+	width:fit-content;
+	align-content: center;
 }
 
 #col3{
@@ -73,7 +79,7 @@ img{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color:#FFFFFF;
-	font-size: 50px;
+	font-size: 20px;
 }
 
 /*Texts*/
@@ -110,14 +116,30 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
 	text-align: center;
-	color: white ;
+	color: #FFFFFF ;
 	text-decoration: underline;
+	font-size: 18px;
 }
 
+#el2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: #FFFFFF ;
+	font-size: 16px;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color:maroon;
+	font-weight: bold;
+}
 h4{
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	color:navy;
+	font-weight: bold;
 }
 
 
