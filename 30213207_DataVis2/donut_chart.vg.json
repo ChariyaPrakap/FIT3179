@@ -2,7 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A simple donut chart displaying depression rates of different courses in 2017",
   "width": 400,
-  "height": 300,
+  "height": 350,
+  "config":{
+    "view": {"stroke": "transparent"},
+    "background": "transparent"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/2017_Course_Counter.csv"
   },

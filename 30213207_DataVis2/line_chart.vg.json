@@ -2,11 +2,15 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Google's stock price over time.",
     "data": {"url": "https://raw.githubusercontent.com/ChariyaPrakap/FIT3179/main/30213207_DataVis2/data/WorldMentalHealthRate.csv"},
-    "width": 400,
-    "height": 300,
+    "width": 500,
+    "height": 350,
+    "config":{
+        "view": {"stroke": "transparent"},
+        "background": "transparent"
+      },
     "title": {
       "text": "Depression Rate of Selected Countries (2000-2017)",
-      "fontSize": 16
+      "fontSize": 18
     },
     "transform": [{
       "filter":{
