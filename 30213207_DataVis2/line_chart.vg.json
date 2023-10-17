@@ -43,7 +43,19 @@
         {"field": "Entity", "type": "nominal","title":"Country"},
         {"field": "Year", "type": "temporal","title":"Year","format":"%Y"},
         {"field": "Depression", "type": "quantitative", "format":".2f", "title":"Depression rate(%)"}
-      ]
-    }
-  }
+      ]},
+      "params": [
+        {
+            "name": "hover",
+            "select": {
+                "type": "point",
+                "fields": ["Time"],
+                "nearest": true,
+                "on": "mouseover",
+                "clear": "mouseout"
+            }
+        }
+    ]
+}
+  
   
