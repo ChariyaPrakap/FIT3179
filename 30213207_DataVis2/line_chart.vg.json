@@ -38,7 +38,12 @@
         "scale":{"domain":[3.0,5.0]},
         "title":"Depression Rate (%)"},
       "color": {"field":"Entity","type":"nominal", "title":"Country","scale":{"range":["purple","#1f78b4",
-      "magenta","orange","cyan","red","olive"]}}
+      "magenta","orange","cyan","red","olive"]}},
+      "tooltip":[
+        {"field": "Entity", "type": "nominal","title":"Country"},
+        {"field": "Year", "type": "temporal","title":"Year","format":"%Y"},
+        {"field": "Depression", "type": "quantitative", "format":".2f", "title":"Depression rate(%)"}
+      ]
     }
   }
   
